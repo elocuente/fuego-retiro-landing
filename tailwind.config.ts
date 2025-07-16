@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom retreat colors
+				earth: {
+					green: 'hsl(var(--earth-green))',
+					beige: 'hsl(var(--earth-beige))',
+					brown: 'hsl(var(--nature-brown))'
+				},
+				fire: {
+					orange: 'hsl(var(--fire-orange))'
+				},
+				calm: {
+					white: 'hsl(var(--calm-white))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
