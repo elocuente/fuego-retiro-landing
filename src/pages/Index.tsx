@@ -37,8 +37,8 @@ const Index = () => {
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            🌿✨ Renace en el Fuego: <br />
-            Yoga, Meditación y Temazcal ✨🔥
+            Renace en el Fuego: <br />
+            Yoga, Meditación y Temazcal
           </h1>
           
           <div className="text-xl md:text-2xl mb-8 space-y-2">
@@ -56,12 +56,12 @@ const Index = () => {
             </p>
           </div>
           
-          <Button 
-            onClick={handleWhatsAppClick}
-            className="bg-fire-orange hover:bg-fire-orange/90 text-white px-8 py-6 text-lg rounded-full shadow-lg transform transition-all duration-300 hover:scale-105"
-          >
-            👉 Reserva tu lugar ahora
-          </Button>
+           <Button 
+             onClick={handleWhatsAppClick}
+             className="bg-fire-orange hover:bg-fire-orange/90 text-white px-8 py-6 text-lg rounded-full shadow-lg transform transition-all duration-300 hover:scale-105"
+           >
+             Reserva tu lugar ahora
+           </Button>
         </div>
       </section>
 
@@ -129,12 +129,58 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Visual Experience Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-earth-brown">
+              Vive la experiencia
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src={yogaImage} 
+                  alt="Yoga al amanecer" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                  <h3 className="text-white text-xl font-bold text-center">Yoga al amanecer</h3>
+                </div>
+              </div>
+              
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src={temazcalImage} 
+                  alt="Ceremonia de Temazcal" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                  <h3 className="text-white text-xl font-bold text-center">Ceremonia de Temazcal</h3>
+                </div>
+              </div>
+              
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src={meditationImage} 
+                  alt="Meditación y Ritual de Fuego" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                  <h3 className="text-white text-xl font-bold text-center">Meditación y Ritual de Fuego</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Program Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-earth-brown">
-              ✨ Tu viaje día a día
+              Tu viaje día a día
             </h2>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -199,7 +245,7 @@ const Index = () => {
                     <div className="flex items-center gap-4">
                       <Clock className="w-5 h-5 text-fire-orange" />
                       <span className="font-semibold text-earth-brown">14:00</span>
-                      <span className="text-muted-foreground">Ceremonia de Temazcal 🔥</span>
+                      <span className="text-muted-foreground">Ceremonia de Temazcal</span>
                     </div>
                     <div className="flex items-center gap-4">
                       <Clock className="w-5 h-5 text-fire-orange" />
@@ -258,14 +304,14 @@ const Index = () => {
             <Card className="bg-fire-orange text-white shadow-xl max-w-2xl mx-auto">
               <CardContent className="p-8">
                 <div className="text-center space-y-4">
-                  <p className="text-lg opacity-90">✅ Valor total real: $180.000</p>
-                  <p className="text-3xl font-bold">🔥 Precio especial: $95.000</p>
-                  <p className="text-xl">💳 Reserva tu lugar con $45.000</p>
+                  <p className="text-lg opacity-90">Valor total real: $180.000</p>
+                  <p className="text-3xl font-bold">Precio especial: $95.000</p>
+                  <p className="text-xl">Reserva tu lugar con $45.000</p>
                   <Button 
                     onClick={handleWhatsAppClick}
                     className="bg-white text-fire-orange hover:bg-gray-100 px-8 py-3 text-lg rounded-full shadow-lg mt-6"
                   >
-                    👉 Quiero reservar mi lugar
+                    Quiero reservar mi lugar
                   </Button>
                 </div>
               </CardContent>
@@ -353,17 +399,17 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">
-              ✨ Los cupos son súper limitados (solo 9 lugares)
+              Los cupos son súper limitados (solo 9 lugares)
             </h2>
             <p className="text-xl mb-12 opacity-90">
-              🔥 Conecta con tu esencia y reserva ahora.
+              Conecta con tu esencia y reserva ahora.
             </p>
             
             <Button 
               onClick={handleWhatsAppClick}
               className="bg-white text-fire-orange hover:bg-gray-100 px-12 py-6 text-xl rounded-full shadow-lg transform transition-all duration-300 hover:scale-105"
             >
-              👉 Reservar ahora vía WhatsApp
+              Reservar ahora vía WhatsApp
             </Button>
           </div>
         </div>
