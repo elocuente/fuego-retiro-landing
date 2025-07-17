@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Check, MessageCircle, Sunrise, Flame, Heart, MapPin, Calendar, Users, Clock, Phone } from "lucide-react";
+import { Check, MessageCircle, Sunrise, Bike, Heart, MapPin, Calendar, Users, Clock, Phone } from "lucide-react";
 import heroImage from "@/assets/hero-retreat.jpg";
 import yogaImage from "@/assets/yoga-sunrise.jpg";
 import temazcalImage from "@/assets/temazcal-ceremony.jpg";
@@ -8,7 +8,7 @@ import meditationImage from "@/assets/meditation-fire.jpg";
 
 const Index = () => {
   const whatsappNumber = "1234567890"; // Replace with actual WhatsApp number
-  const whatsappMessage = "Hola! Me interesa reservar mi lugar en el retiro de Yoga, Meditación y Temazcal";
+  const whatsappMessage = "Hola! Me interesa reservar mi lugar en el retiro de Yoga, Meditación y Bicicleteada";
 
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
@@ -38,7 +38,7 @@ const Index = () => {
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Renace en el Fuego: <br />
-            Yoga, Meditación y Temazcal
+            Yoga, Meditación y Bicicleteada
           </h1>
           
           <div className="text-xl md:text-2xl mb-8 space-y-2">
@@ -92,9 +92,9 @@ const Index = () => {
               <Card className="bg-earth-beige border-none shadow-lg">
                 <CardContent className="p-6 text-center">
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-fire-orange flex items-center justify-center">
-                    <Flame className="w-8 h-8 text-white" />
+                    <Bike className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="font-bold text-earth-brown mb-2">Ceremonia de Temazcal</h3>
+                  <h3 className="font-bold text-earth-brown mb-2">Bicicleteada</h3>
                   <div className="w-8 h-8 mx-auto">
                     <Check className="w-full h-full text-earth-green" />
                   </div>
@@ -152,11 +152,11 @@ const Index = () => {
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
                   src={temazcalImage} 
-                  alt="Ceremonia de Temazcal" 
+                  alt="Bicicleteada" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                  <h3 className="text-white text-xl font-bold text-center">Ceremonia de Temazcal</h3>
+                  <h3 className="text-white text-xl font-bold text-center">Bicicleteada</h3>
                 </div>
               </div>
               
@@ -240,12 +240,12 @@ const Index = () => {
                     <div className="flex items-center gap-4">
                       <Clock className="w-5 h-5 text-fire-orange" />
                       <span className="font-semibold text-earth-brown">10:00</span>
-                      <span className="text-muted-foreground">Caminata meditativa</span>
+                      <span className="text-muted-foreground">Bicicleteada</span>
                     </div>
                     <div className="flex items-center gap-4">
                       <Clock className="w-5 h-5 text-fire-orange" />
-                      <span className="font-semibold text-earth-brown">14:00</span>
-                      <span className="text-muted-foreground">Ceremonia de Temazcal</span>
+                      <span className="font-semibold text-earth-brown">12:00</span>
+                      <span className="text-muted-foreground">Caminata meditativa</span>
                     </div>
                     <div className="flex items-center gap-4">
                       <Clock className="w-5 h-5 text-fire-orange" />
@@ -281,7 +281,7 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="flex items-center gap-4 bg-earth-beige p-6 rounded-lg shadow-lg">
                 <Check className="w-6 h-6 text-earth-green flex-shrink-0" />
-                <span className="text-earth-brown font-semibold">Ceremonia de Temazcal</span>
+                <span className="text-earth-brown font-semibold">Bicicleteada</span>
               </div>
               <div className="flex items-center gap-4 bg-earth-beige p-6 rounded-lg shadow-lg">
                 <Check className="w-6 h-6 text-earth-green flex-shrink-0" />
