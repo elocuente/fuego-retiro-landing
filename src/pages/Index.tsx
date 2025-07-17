@@ -337,8 +337,7 @@ const Index = () => {
                   <h3 className="text-2xl font-bold text-earth-brown mb-4">Facu</h3>
                   <p className="text-muted-foreground mb-4">@facuenviaje</p>
                   <p className="text-earth-brown leading-relaxed">
-                    Guía especializado en experiencias transformadoras y conexión con la naturaleza. 
-                    Facilitador de ceremonias de temazcal y espacios de introspección.
+                    Soy viajero y anfitrión. Me mueve diseñar y sostener espacios donde la naturaleza, el encuentro y la introspección abren nuevas posibilidades. Hoy quiero encender la chispa de lo que podemos crear en los años que vienen.
                   </p>
                 </CardContent>
               </Card>
