@@ -372,8 +372,8 @@ const Index = () => {
               <Card className="bg-earth-beige border-none shadow-lg">
                 <CardContent className="p-8">
                   <p className="text-earth-brown italic mb-4">
-                    "Una experiencia que cambió mi perspectiva. El temazcal me ayudó a conectar conmigo misma 
-                    de una manera que nunca había experimentado."
+                    "La bicicleteada fue increíble, conectamos con la naturaleza de una forma muy especial. 
+                    El yoga y la meditación completaron una experiencia transformadora."
                   </p>
                   <p className="text-muted-foreground font-semibold">- María G.</p>
                 </CardContent>
@@ -382,8 +382,8 @@ const Index = () => {
               <Card className="bg-earth-beige border-none shadow-lg">
                 <CardContent className="p-8">
                   <p className="text-earth-brown italic mb-4">
-                    "El yoga al amanecer y la ceremonia de fuego fueron momentos mágicos. 
-                    Regresé a casa con una sensación de paz que aún conservo."
+                    "El yoga al amanecer y la aventura en bicicleta fueron momentos mágicos. 
+                    Regresé a casa con una sensación de renovación que aún conservo."
                   </p>
                   <p className="text-muted-foreground font-semibold">- Juan P.</p>
                 </CardContent>
