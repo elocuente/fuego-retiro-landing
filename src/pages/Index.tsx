@@ -48,7 +48,7 @@ const Index = () => {
             </p>
             <p className="flex items-center justify-center gap-2">
               <Calendar className="w-5 h-5" />
-              Sábado 26 & Domingo 27 de Julio
+              Sábado 1 & Domingo 2 de Agosto
             </p>
             <p className="flex items-center justify-center gap-2">
               <Users className="w-5 h-5" />
@@ -188,7 +188,7 @@ const Index = () => {
               <Card className="bg-earth-beige border-none shadow-lg">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-earth-brown mb-6 text-center">
-                    Día 1 – Sábado 26 de Julio
+                    Día 1 – Sábado 1 de Agosto
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center gap-4">
@@ -224,7 +224,7 @@ const Index = () => {
               <Card className="bg-earth-beige border-none shadow-lg">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-earth-brown mb-6 text-center">
-                    Día 2 – Domingo 27 de Julio
+                    Día 2 – Domingo 2 de Agosto
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center gap-4">
