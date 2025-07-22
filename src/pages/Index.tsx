@@ -52,7 +52,7 @@ const Index = () => {
             </p>
             <p className="flex items-center justify-center gap-2">
               <Users className="w-5 h-5" />
-              Cupo limitado: 9 personas
+              Cupo limitado: 12 personas
             </p>
           </div>
           
@@ -398,7 +398,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">
-              Los cupos son súper limitados (solo 9 lugares)
+              Los cupos son súper limitados (solo 12 lugares)
             </h2>
             <p className="text-xl mb-12 opacity-90">
               Conecta con tu esencia y reserva ahora.
