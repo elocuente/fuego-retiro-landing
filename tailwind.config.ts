@@ -52,17 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Custom retreat colors
-				earth: {
-					green: 'hsl(var(--earth-green))',
-					beige: 'hsl(var(--earth-beige))',
-					brown: 'hsl(var(--nature-brown))'
-				},
-				fire: {
-					orange: 'hsl(var(--fire-orange))'
-				},
-				calm: {
-					white: 'hsl(var(--calm-white))'
+				// Minimalist retreat colors
+				minimal: {
+					dark: 'hsl(var(--minimal-dark))',
+					gray: 'hsl(var(--minimal-gray))',
+					light: 'hsl(var(--minimal-light))',
+					accent: 'hsl(var(--minimal-accent))',
+					white: 'hsl(var(--minimal-white))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
