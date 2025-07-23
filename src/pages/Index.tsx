@@ -7,7 +7,7 @@ import temazcalImage from "@/assets/temazcal-ceremony.jpg";
 import meditationImage from "@/assets/meditation-fire.jpg";
 
 const Index = () => {
-  const whatsappNumber = "1234567890"; // Replace with actual WhatsApp number
+  const whatsappNumber = "+5493512420145"; // Replace with actual WhatsApp number
   const whatsappMessage = "Hola! Me interesa reservar mi lugar en el retiro de Yoga, Meditación y Bicicleteada";
 
   const handleWhatsAppClick = () => {
